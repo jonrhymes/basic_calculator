@@ -10,11 +10,11 @@
 <body>
     <div class="main">
         <h2 class="header">Basic Calculator using<br> <code>HTML, JavaScript & CSS</code></h2>
-        <form name="calculator" colspan="5">
+        <form class="calculator" name="calculator" colspan="5">
             <!-- Display -->
             <input type="text" name="display" id="display" disabled>
         </form>
-            <table>
+            <table class="keypad">
                 <tr>
                     <td><input type="button" class="btn" id="clear" name="clear" value="c" onclick="calculator.display.value = ''"></td>
                     <td><input type="button" class="btn" id="delete" name="delete" value="del" onclick="back()"></td>
